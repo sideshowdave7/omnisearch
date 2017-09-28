@@ -31,7 +31,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'timecop'
 
   s.add_runtime_dependency 'activesupport'
-  s.add_runtime_dependency 'memcache'
+  # s.add_runtime_dependency 'memcache'
   ## will use dalli in rails 4
   s.add_runtime_dependency 'dalli'
   #s.add_runtime_dependency 'memcache-client'
